@@ -12,7 +12,7 @@
 function addAces(tempArray, temp) {
   for (let i = 0; i < tempArray.length; i++) {
     if (temp >= 11) {
-      temp += + 1;
+      temp += 1;
     }
     else {
       temp += 11;
